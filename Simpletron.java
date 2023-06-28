@@ -25,7 +25,7 @@ public class Simpletron {
         int operando = 0;
 
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("=== Bem vindo ao Simpletron Java version! ===");
         System.out.println("=== Por favor, digite seu programa, uma instrução ===");
         System.out.println("=== (ou palavra de dados) de cada vez. Eu digitarei o ===");
         System.out.println("=== número da posição e um ponto de interrogação (?). ===");
