@@ -78,19 +78,17 @@ public class Simpletron {
                 r0 *= mp[operando];
             }
             if (codOp == BRANCH) {
-                if (operando >= 0 && operando <= 99) {
                     i = operando;
                     continue;
-                }
             }
             if (codOp == BRANCHZERO) {
-                if (operando >= 0 && operando <= 99 && r0 == 0) {
+                if (r0 == 0) {
                     i = operando;
                     continue;
                 }
             }
             if (codOp == BRANCHNEG) {
-                if (operando >= 0 && operando <= 99 && r0 < 0) {
+                if (r0 < 0) {
                     i = operando;
                     continue;
                 }
