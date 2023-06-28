@@ -1,3 +1,4 @@
+// Versão em java para estudos
 import java.util.Scanner;
 
 public class Simpletron {
